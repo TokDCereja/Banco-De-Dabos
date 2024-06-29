@@ -11,67 +11,67 @@ O modelo conceitual é uma representação abstrata do banco de dados, focada em
    -  Descrição: Armazena informações sobre as ferramentas utilizadas no sistema, incluindo dados de identificação, tipo, fabricante, data de aquisição, custo, preço de venda e margem de lucro.
    -  Relacionamentos*: Conecta-se a várias outras tabelas, como Estoque, TabelaNutricional, Precificacao, Agenda, Aprendizado, entre outras, indicando que essas entidades podem estar relacionadas ao uso ou características das ferramentas.
 
-####  Estoque
+##  Estoque
    -  Descrição: Gerencia o inventário de itens, registrando o nome do item, quantidade disponível, unidades e a data da última atualização.
    -  Relacionamentos*: Possui uma chave estrangeira que referencia a tabela Ferramenta, indicando que os itens em estoque estão associados a ferramentas específicas.
 
-####  Caixa
+##  Caixa
    -  Descrição: Controla o saldo financeiro do sistema, armazenando o saldo atual do caixa.
    -  Relacionamentos*: Está relacionada à tabela HistóricoCaixa, que armazena o histórico de movimentações financeiras.
 
-####  HistóricoCaixa
+##  HistóricoCaixa
    -  Descrição: Registra as transações financeiras, incluindo data, valor, tipo (entrada/saída) e referência ao Caixa.
    -  Relacionamentos*: Conecta-se ao Caixa, documentando as movimentações financeiras que afetam o saldo do caixa.
 
-####  Agenda
+##  Agenda
    -  Descrição: Armazena eventos e atividades agendadas, com informações de data, hora, descrição e a ferramenta associada.
    -  Relacionamentos: Possui uma chave estrangeira que referencia a tabela Ferramenta, indicando que eventos na agenda podem estar associados a determinadas ferramentas.
 
-####  Aprendizado
+##  Aprendizado
    -  Descrição: Gerencia módulos de aprendizado, contendo nome e descrição do conteúdo educativo.
    -  Relacionamentos: Conecta-se a Ferramenta e inclui conteúdos educativos adicionais como Vídeo e Artigo.
 
-####  Vídeo
+##  Vídeo
    -  Descrição: Armazena informações sobre vídeos educativos, incluindo título, URL e data de publicação.
    -  Relacionamentos: Está associado à tabela Aprendizado, indicando que vídeos fazem parte do conteúdo educativo.
 
-####  Artigo
+##  Artigo
    -  Descrição: Registra artigos educativos, com título, conteúdo e data de publicação.
    -  Relacionamentos: Também está associado à tabela Aprendizado, complementando o material educativo com artigos.
 
-#### TabelaNutricional
+## TabelaNutricional
    - Descrição: Armazena informações nutricionais de receitas, incluindo valores de carboidrato, proteína, gorduras, sódio, açúcar e valor energético.
    - Relacionamentos: Possui uma chave estrangeira que referencia a tabela Ferramenta, indicando que as tabelas nutricionais podem estar associadas a receitas feitas com determinadas ferramentas.
 
-#### LivroDeReceitas
+## LivroDeReceitas
    - Descrição: Agrupa receitas documentadas e suas relações históricas.
    - Relacionamentos: Conecta-se à tabela Histórico, registrando a relação entre receitas e o histórico de uso.
 
-####  Histórico
+##  Histórico
    -  Descrição: Documenta o histórico de diversas atividades e entidades no sistema.
    -  Relacionamentos: Conecta-se a várias tabelas como Ferramenta, TabelaNutricional, LivroDeReceitas, Precificacao, Aprendizado, Agenda, Caixa, e HistóricoCaixa, indicando um registro abrangente de atividades e mudanças no sistema.
 
-####  Precificacao
+##  Precificacao
    -  Descrição: Armazena dados de precificação, incluindo preço de venda, custo e margem de lucro.
    -  Relacionamentos: Possui uma chave estrangeira que referencia a tabela Ferramenta, indicando que a precificação está associada a ferramentas específicas.
 
-####  Usuario
+##  Usuario
    -  Descrição: Gerencia informações dos usuários do sistema, como nome, email, senha, data de cadastro e plano de assinatura.
    -  Relacionamentos: Conecta-se a Plano e VitrineVirtual, indicando a associação dos usuários a planos de assinatura e produtos na vitrine virtual.
 
-####  Plano
+##  Plano
    -  Descrição: Armazena informações sobre os planos de assinatura, incluindo nome e tipo.
    -  Relacionamentos: Está associado à tabela FormaDePagamento, indicando as formas de pagamento relacionadas a cada plano.
 
-####  FormaDePagamento
+##  FormaDePagamento
    -  Descrição: Gerencia as formas de pagamento, com informações sobre valor, tipo de pagamento, banco e número de parcelas.
    -  Relacionamentos: Conecta-se a Plano, indicando as opções de pagamento disponíveis para os planos de assinatura.
 
-#### VitrineVirtual
+## VitrineVirtual
    - Descrição: Armazena informações sobre produtos na vitrine virtual, incluindo nome, imagem, categoria e descrição do produto.
    - Relacionamentos: Conecta-se a Usuario, indicando os produtos que os usuários podem visualizar ou adquirir.
 
-####  Feedback
+##  Feedback
    -  Descrição: Registra feedback dos usuários, com descrição, avaliação, data e hora.
    -  Relacionamentos: Possui uma chave estrangeira que referencia a tabela Usuario, associando o feedback aos usuários específicos.
 
@@ -284,7 +284,7 @@ Relacionamentos: Indica como as tabelas estão interconectadas através de chave
 
 Em resumo, o modelo físico não apenas define a estrutura das tabelas e seus campos, mas também especifica como os dados serão armazenados fisicamente no banco de dados, proporcionando uma base sólida para a implementação e gerenciamento eficiente dos dados do sistema.
 
-##Comandos de Criação
+## Comandos de Criação
 
 Os comandos de criação de tabelas são utilizados para definir a estrutura de uma tabela em um banco de dados relacional. Cada comando é projetado para especificar os detalhes dos campos que compõem a tabela, bem como quaisquer restrições ou relacionamentos com outras tabelas. 
 
