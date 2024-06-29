@@ -334,7 +334,7 @@ Prevenção contra Ataques: A utilização de HTTPS protege contra ataques como 
 ## Comunicação Eficiente e Confiável
 Confiabilidade: Ao utilizar HTTPS, a comunicação entre a aplicação C# e o servidor é mais confiável, garantindo que os comandos SQL sejam executados conforme esperado sem interferências externas.
 
-## Padronização e Compatibilidade: HTTPS é um padrão amplamente aceito para comunicação segura na web, garantindo que a aplicação esteja em conformidade com as melhores práticas de segurança e seja compatível com diversos sistemas e dispositivos.
+ Padronização e Compatibilidade: HTTPS é um padrão amplamente aceito para comunicação segura na web, garantindo que a aplicação esteja em conformidade com as melhores práticas de segurança e seja compatível com diversos sistemas e dispositivos.
 
 ## Conformidade Regulatória
 Normas e Regulamentos: Muitas indústrias possuem normas e regulamentações (como GDPR, HIPAA) que exigem a proteção dos dados em trânsito. Utilizar HTTPS ajuda a cumprir esses requisitos legais e regulatórios.
