@@ -324,13 +324,12 @@ Executar operações de banco de dados via HTTPS em uma aplicação C# é import
 ## Segurança dos Dados em Trânsito
 
 Criptografia: HTTPS utiliza SSL/TLS para criptografar os dados transmitidos entre o cliente (aplicação C#) e o servidor. Isso garante que dados sensíveis, como credenciais de login, informações pessoais e dados financeiros, sejam protegidos contra interceptação e ataques man-in-the-middle.
-
 Autenticação do Servidor: HTTPS garante que a comunicação está ocorrendo com o servidor legítimo e não com um impostor, proporcionando autenticidade através de certificados digitais.
 
 ## Integridade dos Dados
 Verificação de Integridade: HTTPS verifica que os dados não foram alterados ou corrompidos durante a transmissão. Isso é feito através de verificações de integridade integradas no protocolo SSL/TLS.
 
-## Prevenção contra Ataques: A utilização de HTTPS protege contra ataques como injeção de SQL e cross-site scripting (XSS) quando combinado com outras boas práticas de segurança na aplicação.
+Prevenção contra Ataques: A utilização de HTTPS protege contra ataques como injeção de SQL e cross-site scripting (XSS) quando combinado com outras boas práticas de segurança na aplicação.
 
 ## Comunicação Eficiente e Confiável
 Confiabilidade: Ao utilizar HTTPS, a comunicação entre a aplicação C# e o servidor é mais confiável, garantindo que os comandos SQL sejam executados conforme esperado sem interferências externas.
