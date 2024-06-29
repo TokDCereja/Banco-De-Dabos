@@ -311,11 +311,38 @@ Portanto, depois de criar e executar os comandos SQL para criar tabelas, o SGBD 
 ![Captura de tela 2024-06-29 172312](https://github.com/TokDCereja/Banco-De-Dabos/assets/147439694/931ff04c-07d5-4787-aae8-d8dec40aa476)
 
 
+# Banco De Dados em C#
+
+## Criação das tabelas
+
+![image](https://github.com/TokDCereja/Banco-De-Dabos/assets/147439694/29149c74-397b-421e-85bd-52eaedef581d)
+
+A importância de um aplicativo estar conectado ao SQL Server reside na capacidade de armazenar dados de forma organizada, garantir a segurança e a integridade das informações, oferecer acesso eficiente aos dados e suportar operações críticas de negócios de maneira confiável e escalável. Isso permite que as organizações gerenciem seus dados de forma eficaz e aproveitem melhor as informações para tomada de decisões estratégicas.
 
 
+# Execução das tabelas via HTTPS C# 
+
+Executar operações de banco de dados via HTTPS em uma aplicação C# é importante por várias razões, especialmente em termos de segurança, integridade dos dados e comunicação eficiente. Aqui estão alguns pontos-chave que destacam essa importância:
 
 
+## Segurança dos Dados em Trânsito
+
+Criptografia: HTTPS utiliza SSL/TLS para criptografar os dados transmitidos entre o cliente (aplicação C#) e o servidor. Isso garante que dados sensíveis, como credenciais de login, informações pessoais e dados financeiros, sejam protegidos contra interceptação e ataques man-in-the-middle.
+
+Autenticação do Servidor: HTTPS garante que a comunicação está ocorrendo com o servidor legítimo e não com um impostor, proporcionando autenticidade através de certificados digitais.
+
+## Integridade dos Dados
+Verificação de Integridade: HTTPS verifica que os dados não foram alterados ou corrompidos durante a transmissão. Isso é feito através de verificações de integridade integradas no protocolo SSL/TLS.
+
+## Prevenção contra Ataques: A utilização de HTTPS protege contra ataques como injeção de SQL e cross-site scripting (XSS) quando combinado com outras boas práticas de segurança na aplicação.
+
+## Comunicação Eficiente e Confiável
+Confiabilidade: Ao utilizar HTTPS, a comunicação entre a aplicação C# e o servidor é mais confiável, garantindo que os comandos SQL sejam executados conforme esperado sem interferências externas.
+
+##Padronização e Compatibilidade: HTTPS é um padrão amplamente aceito para comunicação segura na web, garantindo que a aplicação esteja em conformidade com as melhores práticas de segurança e seja compatível com diversos sistemas e dispositivos.
+
+## Conformidade Regulatória
+Normas e Regulamentos: Muitas indústrias possuem normas e regulamentações (como GDPR, HIPAA) que exigem a proteção dos dados em trânsito. Utilizar HTTPS ajuda a cumprir esses requisitos legais e regulatórios.
 
 
-
-
+![Captura de tela 2024-06-29 182845](https://github.com/TokDCereja/Banco-De-Dabos/assets/147439694/5a538799-09fd-4c67-a8fa-de8711d1bd54)
