@@ -265,7 +265,6 @@ Custo (FLOAT)
 ID Ferramenta (FK)
 Descrição: Gerencia os preços dos itens disponíveis.
 
-
 # Modelo Físico
 
 O modelo físico de um banco de dados descreve a estrutura concreta e detalhada de como os dados são armazenados dentro do sistema. Ele inclui:
@@ -310,20 +309,17 @@ Portanto, depois de criar e executar os comandos SQL para criar tabelas, o SGBD 
 
 ![Captura de tela 2024-06-29 172312](https://github.com/TokDCereja/Banco-De-Dabos/assets/147439694/931ff04c-07d5-4787-aae8-d8dec40aa476)
 
-
 # Banco De Dados em C#
 
 ## Criação das tabelas
 
-![image](https://github.com/TokDCereja/Banco-De-Dabos/assets/147439694/29149c74-397b-421e-85bd-52eaedef581d)
-
 A importância de um aplicativo estar conectado ao SQL Server reside na capacidade de armazenar dados de forma organizada, garantir a segurança e a integridade das informações, oferecer acesso eficiente aos dados e suportar operações críticas de negócios de maneira confiável e escalável. Isso permite que as organizações gerenciem seus dados de forma eficaz e aproveitem melhor as informações para tomada de decisões estratégicas.
 
+![image](https://github.com/TokDCereja/Banco-De-Dabos/assets/147439694/29149c74-397b-421e-85bd-52eaedef581d)
 
 # Execução das tabelas via HTTPS C# 
 
 Executar operações de banco de dados via HTTPS em uma aplicação C# é importante por várias razões, especialmente em termos de segurança, integridade dos dados e comunicação eficiente. Aqui estão alguns pontos-chave que destacam essa importância:
-
 
 ## Segurança dos Dados em Trânsito
 
@@ -339,7 +335,7 @@ Verificação de Integridade: HTTPS verifica que os dados não foram alterados o
 ## Comunicação Eficiente e Confiável
 Confiabilidade: Ao utilizar HTTPS, a comunicação entre a aplicação C# e o servidor é mais confiável, garantindo que os comandos SQL sejam executados conforme esperado sem interferências externas.
 
-##Padronização e Compatibilidade: HTTPS é um padrão amplamente aceito para comunicação segura na web, garantindo que a aplicação esteja em conformidade com as melhores práticas de segurança e seja compatível com diversos sistemas e dispositivos.
+## Padronização e Compatibilidade: HTTPS é um padrão amplamente aceito para comunicação segura na web, garantindo que a aplicação esteja em conformidade com as melhores práticas de segurança e seja compatível com diversos sistemas e dispositivos.
 
 ## Conformidade Regulatória
 Normas e Regulamentos: Muitas indústrias possuem normas e regulamentações (como GDPR, HIPAA) que exigem a proteção dos dados em trânsito. Utilizar HTTPS ajuda a cumprir esses requisitos legais e regulatórios.
