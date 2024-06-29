@@ -7,7 +7,7 @@ O modelo conceitual é uma representação abstrata do banco de dados, focada em
 
 ## Entidades e Relacionamentos
 
-####  Ferramenta
+##  Ferramenta
    -  Descrição: Armazena informações sobre as ferramentas utilizadas no sistema, incluindo dados de identificação, tipo, fabricante, data de aquisição, custo, preço de venda e margem de lucro.
    -  Relacionamentos*: Conecta-se a várias outras tabelas, como Estoque, TabelaNutricional, Precificacao, Agenda, Aprendizado, entre outras, indicando que essas entidades podem estar relacionadas ao uso ou características das ferramentas.
 
