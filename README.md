@@ -313,7 +313,7 @@ Portanto, depois de criar e executar os comandos SQL para criar tabelas, o SGBD 
 
 ## Criação das tabelas
 
-A importância de um aplicativo estar conectado ao SQL Server reside na capacidade de armazenar dados de forma organizada, garantir a segurança e a integridade das informações, oferecer acesso eficiente aos dados e suportar operações críticas de negócios de maneira confiável e escalável. Isso permite que as organizações gerenciem seus dados de forma eficaz e aproveitem melhor as informações para tomada de decisões estratégicas.
+A importância da criação de uma API estar conectada ao SQL Server reside na capacidade de armazenar dados de forma organizada, garantir a segurança e a integridade das informações, oferecer acesso eficiente aos dados e suportar operações críticas de negócios de maneira confiável e escalável. Isso permite que as organizações gerenciem seus dados de forma eficaz e aproveitem melhor as informações para tomada de decisões estratégicas.
 
 ![image](https://github.com/TokDCereja/Banco-De-Dabos/assets/147439694/29149c74-397b-421e-85bd-52eaedef581d)
 
